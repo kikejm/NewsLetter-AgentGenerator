@@ -45,10 +45,14 @@ html, body, [data-testid="stAppViewContainer"] {
 }
 
 [data-testid="stSidebar"] input {
-    background-color: #2A2A2A !important;
-    border: 1px solid #444 !important;
-    color: #F5F0E8 !important;
+    background-color: #000000 !important;
+    border: 1px solid #555 !important;
+    color: #FFFFFF !important;
     border-radius: 4px !important;
+}
+
+[data-testid="stSidebar"] input::placeholder {
+    color: #888 !important;
 }
 
 /* Título principal */
@@ -137,10 +141,15 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stTextInput"] input {
     border: 1px solid #1A1A1A !important;
     border-radius: 0 !important;
-    background: #FAF7F2 !important;
+    background: #000000 !important;
+    color: #FFFFFF !important;
     font-family: 'Source Serif 4', serif !important;
     font-size: 1rem !important;
     padding: 0.6rem !important;
+}
+
+[data-testid="stTextInput"] input::placeholder {
+    color: #888 !important;
 }
 
 /* Botón */
